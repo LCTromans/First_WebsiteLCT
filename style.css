@@ -61,6 +61,17 @@ p {
     color: #e53c3f;
     font-size: 1.5rem;
 }
+.carousel {
+    display: flex;
+    position: relative;
+    overflow-wrap: anywhere;
+    width: 100%;
+    animation: scroll-loop 25s linear infinite;
+}
+@keyframes scroll-loop {
+    from {transform: translateX(0);}
+    to {transform: translateX(-229.4%);}
+}
 .p1 {
     display: inline-block;
     flex-flow: row;
@@ -96,17 +107,6 @@ p {
     margin-right: 0%;
     padding-top: 20px;
     padding-bottom: 10px;
-}
-.carousel {
-    display: flex;
-    position: relative;
-    overflow-wrap: anywhere;
-    width: 100%;
-    animation: scroll-loop 25s linear infinite;
-}
-@keyframes scroll-loop {
-    from {transform: translateX(0);}
-    to {transform: translateX(-229.4%);}
 }
 .p5 {
     display: inline-block;
