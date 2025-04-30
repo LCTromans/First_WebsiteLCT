@@ -47,7 +47,7 @@ body {
 .outerframe1 {
     position: absolute;
     top: -0%;
-    bottom: -0%;
+    bottom: -100%;
     left: -0.5%;
     right: -0.5%;
     border: 5px solid #939387;
@@ -112,6 +112,9 @@ p {
     color: #e53c3f;
     font-size: 1.5rem;
     max-width: 100%;
+    padding: 1%;
+    margin: 0.25%;
+    gap: 0.1%;
 }
 .carousel {
     display: flex;
