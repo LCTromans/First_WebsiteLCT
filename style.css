@@ -118,6 +118,8 @@ p {
     color: #e53c3f;
     font-size: 1.5rem;
     max-width: 100%;
+    margin: 0.1%;
+    gap: 0.1%;
 }
 .carousel {
     display: flex;
