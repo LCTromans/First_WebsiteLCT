@@ -35,7 +35,7 @@
         height: auto;
     }
     p {
-        max-width: fit-content;
+        max-width: 100%;
         display: flex;
         flex-flow: row wrap;
         position: static;
@@ -43,8 +43,8 @@
         text-align: left;
         width: 100%;
         font-size: 1rem;
-        padding: 5%;
-        gap: 2.5%;
+        padding: 10%;
+        gap: 5%;
     }
 }
 body {
