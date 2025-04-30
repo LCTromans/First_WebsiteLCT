@@ -35,11 +35,11 @@
         height: auto;
     }
     p {
+        max-width: fit-content;
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
-        text-align: justify;
-        text-justify: auto;
+        text-align: left;
         width: 100%;
         font-size: 1rem;
         padding: 5%;
@@ -120,7 +120,7 @@ p {
     display: flex;
     position: relative;
     color: #e53c3f;
-    text-justify: auto;
+    text-align: left;
     font-size: 1.5rem;
     max-width: 100%;
     padding: 1%;
