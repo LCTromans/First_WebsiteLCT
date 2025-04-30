@@ -1,5 +1,40 @@
 @import url(https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap);
-
+@media (max-width: 1200px) {
+    .screensize1 {
+        width: 100%;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 992px) {
+    .screensize1 {
+        width: 100%;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 768px) {
+    .screensize1 {
+        width: 100%;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 576px) {
+    .screensize1 {
+        width: 100%;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
 body {
     font-family: "Lexend Giga", sans-serif;
     background-color: #caced8;
