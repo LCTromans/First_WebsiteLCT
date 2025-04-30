@@ -40,75 +40,75 @@
         gap: 2.5%;
     }
     .p1 {
-        display: inline-block;
+        display: flex;
         flex-flow: row wrap;
-        justify-content: space-evenly;
+        justify-content: space-around;
         width: 100%;
     }
     .p2 {
-        display: inline-block;
+        display: flex;
         flex-flow: row wrap;
-        justify-content: space-evenly;
+        justify-content: space-around;
         width: 100%;
     }
     .p3 {
-        display: inline-block;
+        display: flex;
         flex-flow: row wrap;
-        justify-content: space-evenly;
+        justify-content: space-around;
         width: 100%;
     }
     .p4 {
-        display: inline-block;
+        display: flex;
         flex-flow: row wrap;
-        justify-content: space-evenly;
+        justify-content: space-around;
         width: 100%;
     }
     .p5 {
-        display: inline-block;
+        display: flex;
         flex-flow: row wrap;
-        justify-content: space-evenly;
+        justify-content: space-around;
         width: 100%;
     }
     .p6 {
-        display: inline-block;
+        display: flex;
         flex-flow: row wrap;
-        justify-content: space-evenly;
+        justify-content: space-around;
         width: 100%;
     }
     .p7 {
-        display: inline-block;
+        display: flex;
         flex-flow: row wrap;
-        justify-content: space-evenly;
+        justify-content: space-around;
         width: 100%;
     }
     .p8 {
-        display: inline-block;
+        display: flex;
         flex-flow: row wrap;
-        justify-content: space-evenly;
+        justify-content: space-around;
         width: 100%;
     }
     .p9 {
-        display: inline-block;
+        display: flex;
         flex-flow: row wrap;
-        justify-content: space-evenly;
+        justify-content: space-around;
         width: 100%;
     }
     .p10 {
-        display: inline-block;
+        display: flex;
         flex-flow: row wrap;
-        justify-content: space-evenly;
+        justify-content: space-around;
         width: 100%;
     }
     .p11 {
-        display: inline-block;
+        display: flex;
         flex-flow: row wrap;
-        justify-content: space-evenly;
+        justify-content: space-around;
         width: 100%;
     }
     .p12 {
-        display: inline-block;
+        display: flex;
         flex-flow: row wrap;
-        justify-content: space-evenly;
+        justify-content: space-around;
         width: 100%;
     }
 }
