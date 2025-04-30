@@ -117,6 +117,7 @@ p {
     position: relative;
     color: #e53c3f;
     font-size: 1.5rem;
+    max-width: 100%;
 }
 .carousel {
     display: flex;
