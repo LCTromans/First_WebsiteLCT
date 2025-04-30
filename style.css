@@ -114,6 +114,7 @@ h2 {
 }
 p {
     display: flex;
+    position: relative;
     color: #e53c3f;
     font-size: 1.5rem;
 }
