@@ -39,6 +39,10 @@ body {
     font-family: "Lexend Giga", sans-serif;
     background-color: #caced8;
     overflow-x: hidden;
+    max-width: 1200px;
+    max-width: 992;
+    max-width: 768;
+    max-width: 576;
 }
 .outerframe1 {
     position: absolute;
