@@ -38,6 +38,7 @@
         max-width: fit-content;
         display: flex;
         flex-flow: row wrap;
+        position: static;
         justify-content: center;
         text-align: left;
         width: 100%;
@@ -118,7 +119,7 @@ h2 {
 }
 p {
     display: flex;
-    position: relative;
+    position: static;
     color: #e53c3f;
     text-align: left;
     font-size: 1.5rem;
