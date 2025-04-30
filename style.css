@@ -47,7 +47,6 @@ body {
 .outerframe1 {
     position: absolute;
     top: -0%;
-    bottom: -100%;
     left: -0.5%;
     right: -0.5%;
     border: 5px solid #939387;
@@ -129,7 +128,7 @@ p {
 }
 .p1 {
     display: inline-block;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: space-evenly;
     width: 22%;
     padding: 1%;
@@ -143,7 +142,7 @@ p {
 }
 .p2 {
     display: inline-block;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: space-evenly;
     width: 22%;
     padding: 1%;
@@ -157,7 +156,7 @@ p {
 }
 .p3 {
     display: inline-block;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: space-evenly;
     width: 22%;
     padding: 1%;
@@ -171,7 +170,7 @@ p {
 }
 .p4 {
     display: inline-block;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: space-evenly;
     width: 22%;
     padding: 1%;
@@ -195,7 +194,7 @@ p {
 }
 .p5 {
     display: inline-block;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: space-evenly;
     width: 22%;
     padding: 1%;
@@ -209,7 +208,7 @@ p {
 }
 .p6 {
     display: inline-block;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: space-evenly;
     width: 22%;
     padding: 1%;
@@ -223,7 +222,7 @@ p {
 }
 .p7 {
     display: inline-block;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: space-evenly;
     width: 22%;
     padding: 1%;
@@ -237,7 +236,7 @@ p {
 }
 .p8 {
     display: inline-block;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: space-evenly;
     width: 22%;
     padding: 1%;
@@ -261,7 +260,7 @@ p {
 }
 .p9 {
     display: inline-block;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: space-evenly;
     width: 22%;
     padding: 1%;
@@ -275,7 +274,7 @@ p {
 }
 .p10 {
     display: inline-block;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: space-evenly;
     width: 22%;
     padding: 1%;
@@ -289,7 +288,7 @@ p {
 }
 .p11 {
     display: inline-block;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: space-evenly;
     width: 22%;
     padding: 1%;
@@ -303,7 +302,7 @@ p {
 }
 .p12 {
     display: inline-block;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: space-evenly;
     width: 22%;
     padding: 1%;
