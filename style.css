@@ -87,8 +87,9 @@ p {
 }
 .carousel-track {
     display: flex;
+    width: max-content;
     gap: 10px;
-    animation: scroll 20s linear infinite;
+    animation: scroll 30s linear infinite;
 }
 .carousel:hover .carousel-track {
     animation-play-state: paused;
@@ -100,8 +101,8 @@ p {
     flex: 0 0 auto;
 }
 @keyframes scroll {
-    from {transform: translateX(0) ;}
-    to {transform: translateX(-105%);}
+    0% {transform: translateX(0) ;}
+    100% {transform: translateX(-50%);}
 }
 
 .paragraph-block {
