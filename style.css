@@ -26,12 +26,13 @@ ul {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    padding: 10px;
-    margin: 0;
+    padding: 1%;
+    margin: 0%;
     background-color: #939387;
 }
   
 a {
+    flex-flow: row wrap;
     text-decoration: none;
     font-weight: bold;
     color: #e53c3f;
@@ -79,26 +80,33 @@ p {
 .carousel {
     overflow-x: hidden;
     position: relative;
+    white-space: nowrap;
     width: 100%;
+    max-width: 100%;
     padding: 1rem;
 }
 .carousel-track {
     display: flex;
+    gap: 10px;
     animation: scroll 20s linear infinite;
+}
+.carousel:hover .carousel-track {
+    animation-play-state: paused;
 }
 .carousel img {
     width: auto;
     height: 100px;
     object-fit: cover;
+    flex: 0 0 auto;
 }
 @keyframes scroll {
     from {transform: translateX(0) ;}
-    to {transform: translateX(-101%);}
+    to {transform: translateX(-105%);}
 }
 
 .paragraph-block {
     display: inline-block;
-    width: 22%;
+    width: 100%;
     padding: 1%;
     margin: 0.5%;
     text-shadow: 1px 1px 3px #c5564f;
