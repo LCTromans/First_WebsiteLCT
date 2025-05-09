@@ -2,7 +2,7 @@
 
 body {
     font-family: "Lexend Giga", sans-serif;
-    background-color: #392f2d;
+    background-color: #343328;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
@@ -21,6 +21,7 @@ ul {
 a {
     flex-flow: row wrap;
     text-decoration: none;
+    outline: 5px outset #a6a9a0 ;
     font-weight: bold;
     color: #e53c3f;
     background-color: #b3bab5;
@@ -56,13 +57,19 @@ footer p {
     border-bottom: 5px solid #a6a9a0;
 }
 
-h1, h2 {
+.homehead {
     color: #833629;
     text-align: center;
     margin: 1rem 0;
 }
 
-  
+.head2 {
+    color: #8dbdc6;
+    text-align: center;
+    text-shadow: 1px 1px 3px #06abea, -1px -1px 3px #4c8484;
+    margin: 1rem 0;
+}
+
 p {
     color: #e53c3f;
     text-align: left;
